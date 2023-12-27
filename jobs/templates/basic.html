@@ -31,7 +31,19 @@
       gap:5px;
       
     }
-    
+
+    @media (max-width: 769px){
+      .banner-home{
+        content:url("https://github.com/shuvbhamm/Job-Portal-Website-using-Django/blob/main/jobs/static/rungta%20jobs%20banner%20medium.jpg?raw=true");
+      }
+    }
+
+    @media (max-width: 500px){
+      .banner-home{
+        content:url("https://github.com/shuvbhamm/Job-Portal-Website-using-Django/blob/main/jobs/static/rungta%20jobs%20banner%20small.jpg?raw=true");
+      }
+    }
+
   </style>
   {% block css %}
   {% endblock %}
