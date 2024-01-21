@@ -4,7 +4,7 @@ This website comes with 3 login views, USER, COMPANIES, ADMIN. <be>
 
 >To run this project on your local environment follow these steps :
 >
-#### Make sure have the latest version of Python is installed in your system by using this command in your terminal
+#### Make sure the latest version of Python is installed in your system by using this command in your terminal
 ```console
 python --version
 ```
@@ -25,6 +25,10 @@ py manage.py migrate
 #### After successful migrations, your project is good to go, To run your project use this command :
 ```console
 py manage.py runserver
+```
+#### Enter the following URL in your browser to use this project
+```console
+http://127.0.0.1:8000/
 ```
 
 ### The only thing you need to do is create super user for your environment to access the Admin view of this project, use this command to create superuser
